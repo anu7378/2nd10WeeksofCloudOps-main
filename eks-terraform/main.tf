@@ -111,7 +111,7 @@ provider "aws" {
   }
  
  # data source 
- data "aws_vpc" "vpc" {
+ data "aws_vpc" "main" {
   tags = {
     Name = "Jumphost-vpc"  # Specify the name of your existing VPC
   }
