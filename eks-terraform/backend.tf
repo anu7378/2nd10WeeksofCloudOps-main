@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "devops-anu"
+    bucket = "project7777777"
     key    = "eks/terraform.tfstate"
     region = "us-east-1"
   }
